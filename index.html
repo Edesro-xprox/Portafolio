@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+  </head>
+  <body class = "dark">
+    <!--Barra de encabezado-->
+    <header class="header">
+      <div class="switches">
+        <div id = "toggle-theme" class="toggle-theme">
+          <img id = "toggle-icon" class = "toggle-theme__icon" src="assets/icons/moon.svg" alt="icon theme">
+          <p id = "toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id = "toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <!--Contenido-->
+    <main class="main">
+      <!--Columna izquierda-->
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/portfolio-youtube-inicial-main/assets/images/profile.jpg" alt="">
+          </div>
+
+          <div class="card__header">
+            <h2 class="card__title">Edson Espinoza</h2>
+            <p class="card__subtitle">Practicante de Ingeniería de Sistemas</p>
+          </div>
+
+          <div class="card__body">
+            <div class="card__link">
+              <i class='bx bxs-envelope'></i>
+              <a href="mailto:edesro1996@gmail.com">
+                edesro1996@gmail.com
+              </a>
+            </div>
+
+            <div class="card__link">
+              <i class='bx bxs-phone'></i>
+              <a href="tel:978891282">
+                  +51 978 891 282
+              </a>
+            </div>
+
+            <p class="card__text">
+              Soy un estudiante de ingeniería de sistemas que curso el VIII ciclo de la carrera, interesado en el desarrollo web, manejo de base de datos, lenguajes de programación y sus aplicaciones. Busco siempre aprender más de lo que me enseñan, capacitándome en otros cursos, además de ser alguien asertivo en diversas situaciones, puntual y responsable. 
+            </p>
+          </div>
+        </article>
+        <!--Experiencias-->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencias</h2>
+          <div class="experience">
+            <img src="/portfolio-youtube-inicial-main/assets/images/SQL.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                Mayo 2022 - Actual
+              </p>
+              <h3 class="experience__job">Reportes en Zoho con SQL</h3>
+              <p class="experience__description">Realización de reportes en un software para gestionar negocios llamado Zoho, usando el lenguaje de consultas SQL.</p>
+            </div> 
+          </div>
+        </article>
+
+        <!--Hobbies-->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="/portfolio-youtube-inicial-main/assets/images/videogame__hobbie.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title">Videojuegos</h3>
+          <p class="card__text">
+            Me gustan mucho los videojuegos, de cualquier categoria, como de plataformas, terror, aventura, etc. 
+          </p>
+        </article>
+      </section>
+      <!--Columna derecha-->
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front - End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">HTML5</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Back - End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">SQL</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">OBS Studio</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Ofimática</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Excel</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Power BI</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Word</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Power Point</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/portfolio-youtube-inicial-main/assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>
+            <h2 class="card__title">Proyecto de pagina web de la facultad de Ingeniería de Sistemas</h2>
+            <p class="card__text">
+              En este proyecto se realizo una pagina web de la facultad de ingeniería de sistemas, usando las tecnologías de HTML5, CSS y JavaScript. De esta forma brindar la información y novedades que surgen en la facultad.
+            </p>
+
+            <!--<div class="buttons">
+              <a href="#" class="button button--primary">Ver</a>
+              <a href="#" class="button button--ghost">Código</a>
+            </div>-->
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html> 
