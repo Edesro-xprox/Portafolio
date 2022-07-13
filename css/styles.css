@@ -132,7 +132,7 @@
 }
 
 .card__image-container{
-    min-width: 320px;
+    min-width: 280px;
     border-radius: var(--border-radius);
     overflow: hidden;
 }
@@ -291,6 +291,8 @@
 
 .project{
     position: relative;
+    margin-left: 2em;
+   
 }
 
 @media screen and (min-width: 760px){
